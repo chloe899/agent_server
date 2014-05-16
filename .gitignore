@@ -1,0 +1,5 @@
+tmp/
+uploadfiles/
+.idea/
+*.iml
+node_modules/
