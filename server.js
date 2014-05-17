@@ -82,7 +82,7 @@ function getPostData(req,res){
 
 var server = express();
 server.use(express.bodyParser());
-
+server.disable("x-powered-by");
 
 
 
@@ -90,8 +90,8 @@ server.use(express.bodyParser());
 var basePath = "tmp/cnki.net";
 var proxyHost = "cnki.net";
 var listenPort  = 8929;
-var serverHost = "nodedev.me";
-var accessHost = "nodedev.me";
+var serverHost = "test.local";
+var accessHost = "test.local";
 var accessPort = "8929";
 
 function getHost(req){
@@ -354,7 +354,7 @@ server.use(function(req,res,next){
     var urlInfo = urlUtil.parse(requestUrl);
     log.debug(urlInfo);
     var urlPath = urlInfo.pathname;
-    var filePath =   basePath +  prefix + urlInfo.pathname;
+    var filePath =   basePath + "/" + req.host  +  prefix + urlInfo.pathname;
     filePath = decodeURIComponent(filePath);
     var urlQueryArr = urlPath.split("?");
     urlQueryArr.splice(0,1);
@@ -457,7 +457,7 @@ server.use(function(req,res,next){
                     res.write(result);
                     res.end();
 
-                    if(!query){
+                    if(!query && !/(\.aspx|\.ashx)/.test(filePath)){
                          var p  = pathUtil.dirname(filePath);
                          mkDirP(p,function(){
                          var s = fs.createWriteStream(filePath);
