@@ -17,6 +17,7 @@ var urlUtil = require('url');
 var prefix = "";
 var shasum = crypto.createHash('md5');
 var pathUtil = require('path');
+var zlib = require('zlib');
 
 
 
@@ -86,16 +87,20 @@ server.use(express.bodyParser());
 
 
 
-var basePath = "tmp/fhao123";
+var basePath = "tmp/cnki.net";
 var proxyHost = "cnki.net";
 var listenPort  = 8929;
-var serverHost = "cnki.net";
+var serverHost = "nodedev.me";
+var accessHost = "nodedev.me";
+var accessPort = "8929";
 
 function getHost(req){
     var reqHost = req.host;
     log.debug(reqHost);
     //log.debug(req.headers);
-    var reg = /([a-zA-Z0-9-]+)\.([a-zA-Z0-9-]+)$/ig;
+    var pattern = accessHost.replace(/\./g, "\\.");
+    pattern = pattern + "$";
+    var reg =  new RegExp(pattern);
     var host = proxyHost;
 
     if(reg.test(reqHost)){
@@ -109,6 +114,12 @@ function getHost(req){
 }
 
 function replaceHost(html,toHost){
+    if(!html){
+        return html;
+    }
+    if(!toHost){
+        toHost = accessHost +  ":" + accessPort;
+    }
     var regStr =  proxyHost.replace(/\./ig,function(a){
         return "\\.";
     });
@@ -117,9 +128,8 @@ function replaceHost(html,toHost){
     var hosts = {};
     html = html.replace(reg,function(a,b){
         a = a.toLocaleLowerCase();
-
         var result =  a.replace(b,toHost);
-        hosts[a] = result;
+        hosts[a] = a.replace(b, accessHost);
         return   result;
 
 
@@ -259,23 +269,78 @@ function replaceEncoding(html,toEncoding){
 
 
 function mkDirP(path,cb){
+
     var cmd = "mkdir -p " + path;
-    exec(cmd,{cwd:basePath},function(){
+    exec(cmd,function(){
         cb(null);
     });
 
 }
 
-function getRequest(externalUrl,cb){
-    var options =  {url:externalUrl,encoding:null,followRedirect:false};
-    request(options,function(error,res,body){
-        if(res.headers["Location"] || res.headers["location"]){
-            var url = res.headers["Location"] || res.headers["location"];
-            getRequest(url,cb);
-        } else{
-            cb(error,res,body);
+function getBaseAccessUrl(){
+    if(accessPort == "80"){
+        return accessHost;
+    }else{
+        return accessHost + ":" + accessPort;
+    }
+}
+function replaceBaseHost(originValue){
+    if(!originValue){
+        return originValue;
+    }
+    var pattern = getBaseAccessUrl();
+    var  pattern1 = encodeURIComponent(pattern).replace(".", "\\.");
+    pattern = pattern.replace(".", "\\.");
+
+    log.debug(pattern);
+    var reg = new RegExp(pattern, "ig");
+    var reg1 = new RegExp(pattern1, "ig");
+    originValue = originValue.replace(reg, proxyHost);
+    originValue = originValue.replace(reg1, encodeURIComponent(proxyHost));
+    return originValue;
+}
+
+
+function replaceHeaderHost(headers){
+    var replaceArr = ["host", "cookie", "referer"];
+    _.each(replaceArr, function(k){
+        var value = headers[k];
+        if(value){
+            headers[k] = replaceBaseHost(value);
         }
     });
+    return headers;
+
+}
+
+function getRequest(externalUrl,headers,cb){
+    var referer   = headers.referer;
+    headers = replaceHeaderHost(headers);
+    var reg = /http(s)?:\/\/[^\/]+/;
+    var baseUrl = reg.exec(externalUrl)[0];
+
+    var options =  {url:externalUrl,encoding:null,followRedirect:false,headers:headers};
+    log.debug(options);
+    request(options,function(err,res,body){
+        if(err){
+            cb(err);
+            return;
+        }
+        if(res.headers["Location"] || res.headers["location"]){
+            var url = res.headers["Location"] || res.headers["location"];
+            log.debug(res.headers);;
+            if(!/^http(s)?:\/\/?/i.test(url)){
+                url = baseUrl + url;
+            }
+            getRequest(url,headers,cb);
+        } else{
+            cb(err,res,body);
+        }
+    });
+}
+
+function getTargetHostName(req){
+
 }
 
 
@@ -283,25 +348,29 @@ function getRequest(externalUrl,cb){
 
 
 server.use(function(req,res,next){
+
+    var host = getHost(req);
     var requestUrl  =  req.url;
     var urlInfo = urlUtil.parse(requestUrl);
+    log.debug(urlInfo);
     var urlPath = urlInfo.pathname;
-    var filePath =  basePath + prefix + urlInfo.pathname;
+    var filePath =   basePath +  prefix + urlInfo.pathname;
     filePath = decodeURIComponent(filePath);
     var urlQueryArr = urlPath.split("?");
     urlQueryArr.splice(0,1);
     var query = "";
-    if(urlQueryArr.length > 0){
-        query = "?" + urlQueryArr.join("?");
-    }
+    query = urlInfo.search;
     filePath = decodeURIComponent(filePath);
+    log.debug(req.host);
+
     if(/\/$/.test(filePath)){
         filePath = filePath + "index.html";
 
     }
     log.debug("file path = %s",filePath);
     //var host = "http://teespring.com";
-    var host = getHost(req);
+
+    log.debug(filePath);
     var method = req.method;
     //log.debug(method);
     if(method == "POST"){
@@ -312,13 +381,21 @@ server.use(function(req,res,next){
         [
             function(cb){
                 fs.exists(filePath, function (exists) {
-                    if(exists){
+                    if(exists && !urlInfo.search){
                         cb(null);
                     }else{
-
+                        log.debug(urlQueryArr);
+                        query = replaceBaseHost(query);
+                        query = query || "";
                         var externalUrl = host  + prefix + urlInfo.pathname + query;
                         log.debug(externalUrl);
-                        getRequest(externalUrl,cb);
+                        getRequest(externalUrl,req.headers, function(err, res, body){
+                            if(err){
+                                log.error(err);
+                            }
+                            log.debug(res.headers);
+                            cb(err, res, body);
+                        });
                     }
 
                 });
@@ -326,46 +403,78 @@ server.use(function(req,res,next){
         ],
         function(error,pres,body){
             if(body){
-                var result = body.toString();
-                var isT = isText(pres);
-                if(isT || /((\.(js|css|html|htm))|\/)$/.test(urlPath)){
-                    var sourceEncoding = getEncoding(result,pres);
-                    var toEncoding = "utf-8";
-                    if(sourceEncoding){
-                        if(sourceEncoding == "gb2312"){
-                            sourceEncoding = "gbk";
-                        }
-                        log.debug("convert %s to %s",sourceEncoding,toEncoding);
-                        var iconv = new Iconv(sourceEncoding, toEncoding);
-                        var b =  iconv.convert(pres.body);
-                        result = b.toString();
-                        //replace meta encoding to utf-8 if exists
-                        result = replaceEncoding(result,toEncoding);
+                async.waterfall([function(cb){
+                    var encoding = pres.headers['content-encoding'];
+                    log.debug(encoding);
+                    switch (encoding) {
+                        // or, just use zlib.createUnzip() to handle both cases
+                        case 'gzip':
+                            zlib.unzip(body, function(err, buffer) {
+                                cb(err, buffer);
+                            });
+                            break;
+                        case 'deflate':
+                            zlib.inflate(body, function(err, buffer) {
+                                cb(err, buffer);
+                            });
+                            break
+                        default :
+                            cb(error, body);
 
-                    }                   //
-                    result   = replaceHost(result,serverHost);
-                    //log.debug(result);
-                } else{
+                    }
+                }], function(err, body){
+                    var result = body;
+                    var isT = isText(pres);
+                    if(isT || /((\.(js|css|html|htm))|\/)$/.test(urlPath)){
 
-                    result = body;
+                        var sourceEncoding = getEncoding(result,pres);
+                        var toEncoding = "utf-8";
+                        if(sourceEncoding && sourceEncoding != toEncoding){
+                            if(sourceEncoding == "gb2312"){
+                                sourceEncoding = "gbk";
+                            }
+                            log.debug("convert %s to %s",sourceEncoding,toEncoding);
+                            var iconv = new Iconv(sourceEncoding, toEncoding);
+                            var b =  iconv.convert(pres.body);
+                            result = b.toString();
+                            //replace meta encoding to utf-8 if exists
+                            result = replaceEncoding(result,toEncoding);
 
-                }
 
-                log.debug(typeof(result));
-                //result = result.toString();
+                        } else{
 
-                res.write(result);
-                res.end();
-                var p  = pathUtil.dirname(filePath);
-                mkDirP(p,function(){
-                    var s = fs.createWriteStream(filePath);
-                    s.write(result,function(){
-                        log.debug("%s write complete",filePath);
-                    });
+                            result = body.toString();
+                        }             //
+                        result   = replaceHost(result);
+                        delete pres.headers["content-encoding"];
+                        delete pres.headers["content-length"];
+                    }
+
+                    log.debug(typeof(result));
+                    //result = result.toString();
+
+                    res.set(pres.headers);
+                    res.write(result);
+                    res.end();
+
+                    if(!query){
+                         var p  = pathUtil.dirname(filePath);
+                         mkDirP(p,function(){
+                         var s = fs.createWriteStream(filePath);
+                         s.write(result,function(){
+                         log.debug("%s write complete",filePath);
+                         });
+                         });
+                    }
+
                 });
 
+
             }else{
-                fs.createReadStream(decodeURIComponent(filePath)).pipe(res);
+                filePath = decodeURIComponent(filePath);
+                log.debug(filePath);
+                res.sendfile(filePath);
+                //fs.createReadStream(decodeURIComponent(filePath)).pipe(res);
             }
 
         });
