@@ -19,6 +19,7 @@ var shasum = crypto.createHash('md5');
 var pathUtil = require('path');
 var zlib = require('zlib');
 
+var qs = require("querystring");
 
 
 
@@ -33,54 +34,107 @@ function getMD5Sum(data){
     return d;
 }
 
+
+function handlePostResponse(originReq,originRes, externalUrl,res){
+
+}
+
 function getPostData(req,res){
     var eUrl =  getHost(req) + req.url;
     var data = req.body;
-    var dataStr = req._rawBody;
-    log.debug(dataStr);
-    var headers  = {"Content-type":"application/x-www-form-urlencoded; charset=utf-8"};
-    var extReq = request({url:eUrl,headers:headers,body:dataStr,method:"POST"});
-    extReq.pipe(res);
+    var contentType = req.headers["content-type"] || "application/x-www-form-urlencoded";
+    var dataStr = "";
+    if(contentType == "application/x-www-form-urlencoded"){
+        dataStr =   qs.stringify(data);
+    }
+    log.debug(data);
+    var headers = req.headers;
+    headers = replaceHeaderHost(headers);
+    var options = {url:eUrl,headers:headers,encoding:null,body:dataStr,method:"POST"};
+    log.debug(options);
+    async.waterfall([
+        function(cb){
+            request(options, function(err, res, body){
+                cb(err, res, body);
+            });
+        },
+        function(serverRes, body, cb){
+            var encoding = serverRes.headers['content-encoding'];
+            log.debug(serverRes.headers);
+            switch (encoding) {
+                // or, just use zlib.createUnzip() to handle both cases
+                case 'gzip':
+                    zlib.unzip(serverRes.body, function(err, buffer) {
+                        cb(err, serverRes, buffer);
+                    });
+                    break;
+                case 'deflate':
+                    zlib.inflate(serverRes.body, function(err, buffer) {
+                        cb(err, serverRes,buffer);
+                    });
+                    break
+                default :
+                    cb(null,serverRes, body);
+
+            }
+        },
+        function(serverRes, body, cb){
+
+            var isT = isText(serverRes);
+            log.debug("is test %s", isT);
+            if(isT){
+                var bodyStr = body.toString();
+                var sourceEncoding = getEncoding(bodyStr, serverRes);
+                var toEncoding = "utf-8";
+                if(sourceEncoding && sourceEncoding != toEncoding){
+                    if(sourceEncoding == "gb2312"){
+                        sourceEncoding = "gbk";
+                    }
+
+                    log.debug("convert %s to %s",sourceEncoding,toEncoding);
+                    log.debug(serverRes.headers);
+                    var iconv = new Iconv(sourceEncoding, toEncoding);
+                    var b =  iconv.convert(body);
+                    bodyStr = b.toString();
+                    //replace meta encoding to utf-8 if exists
+                    bodyStr = replaceEncoding(bodyStr,toEncoding);
+
+
+                } else{
+
+                    bodyStr = body.toString();
+                }             //
+                bodyStr   = replaceHost(bodyStr);
+                delete serverRes.headers["content-encoding"];
+                delete serverRes.headers["content-length"];
+                cb(null, serverRes, bodyStr);
+
+            }else{
+                cb(null, serverRes, body);
+            }
+
+        }
+    ], function(err,serverRes, body){
+        if(err){
+            log.error(err);
+        }else{
+            log.debug(body);
+            log.debug(serverRes.headers);
+            res.set(serverRes.headers);
+            res.write(body);
+            res.end();
+        }
+
+    });
+
+    //extReq.pipe(res);
 
     return;
-    var urlPath  =  req.url;
-    var urlInfo = urlUtil.parse(urlPath);
-    var filePath;
-    var method = req.method;
-    var data = "";
-    req.on("data",function(chunk){
-        data = data + chunk;
-    });
-    req.on("end",function(){
 
-        var md5sum = getMD5Sum(data);
-        filePath = execPath + prefix + urlInfo.pathname + "/" + md5sum;
-        async.waterfall(
-            [
-                function(cb){
-                    fs.exists(filePath, function (exists) {
-                        if(exists){
-                            cb(null);
-                        }else{
-                            var cmd = "wget  -x -nH --post-data=" + data + " --output-document=" + md5sum  + " http://teespring.com"  + prefix + urlInfo.pathname;
-                            console.log(cmd);
-                            var c =  exec(cmd,{cwd:execPath},function(){
-                                cb(null);
-                            });
-                            c.stdout.pipe(process.stdout);
-                            c.stderr.pipe(process.stderr);
-                        }
-
-                    });
-                }
-            ],
-            function(error,result){
-                fs.createReadStream(filePath).pipe(res);
-            });
-    });
 }
 
 var server = express();
+
 server.use(express.bodyParser());
 server.disable("x-powered-by");
 
@@ -320,7 +374,6 @@ function getRequest(externalUrl,headers,cb){
     var baseUrl = reg.exec(externalUrl)[0];
 
     var options =  {url:externalUrl,encoding:null,followRedirect:false,headers:headers};
-    log.debug(options);
     request(options,function(err,res,body){
         if(err){
             cb(err);
@@ -360,6 +413,10 @@ server.use(function(req,res,next){
     urlQueryArr.splice(0,1);
     var query = "";
     query = urlInfo.search;
+    if(query){
+        filePath = filePath + query;
+    }
+
     filePath = decodeURIComponent(filePath);
     log.debug(req.host);
 
@@ -382,13 +439,14 @@ server.use(function(req,res,next){
             function(cb){
                 fs.exists(filePath, function (exists) {
                     if(exists && !urlInfo.search){
+                        log.debug("file:%s found", filePath);
                         cb(null);
                     }else{
                         log.debug(urlQueryArr);
                         query = replaceBaseHost(query);
                         query = query || "";
                         var externalUrl = host  + prefix + urlInfo.pathname + query;
-                        log.debug(externalUrl);
+                        //log.debug(externalUrl);
                         getRequest(externalUrl,req.headers, function(err, res, body){
                             if(err){
                                 log.error(err);
@@ -433,9 +491,11 @@ server.use(function(req,res,next){
                             if(sourceEncoding == "gb2312"){
                                 sourceEncoding = "gbk";
                             }
+
                             log.debug("convert %s to %s",sourceEncoding,toEncoding);
+                            log.debug(pres.headers);
                             var iconv = new Iconv(sourceEncoding, toEncoding);
-                            var b =  iconv.convert(pres.body);
+                            var b =  iconv.convert(body);
                             result = b.toString();
                             //replace meta encoding to utf-8 if exists
                             result = replaceEncoding(result,toEncoding);
@@ -452,32 +512,65 @@ server.use(function(req,res,next){
 
                     log.debug(typeof(result));
                     //result = result.toString();
+                    var status = pres.statusCode;
+                    log.debug("response status is %s", status);
+                    if(status != 304){
+                        log.debug("is modified %s",req.headers["if-modified-since"] == pres.headers["last-modified"]);
+                        if(req.headers["if-modified-since"] == pres.headers["last-modified"]){
+                            res.send(304);
+                        } else{
+                            res.set(pres.headers);
+                            res.write(result);
+                            res.end();
+                        }
 
-                    res.set(pres.headers);
-                    res.write(result);
-                    res.end();
+                    } else{
+                      res.send(304);
+                    }
 
                     if(!query && !/(\.aspx|\.ashx)/ig.test(filePath)){
-                         var p  = pathUtil.dirname(filePath);
-                         mkDirP(p,function(){
-                         var s = fs.createWriteStream(filePath);
-                         s.write(result,function(){
-                         log.debug("%s write complete",filePath);
-                         });
-                         });
+                        var p  = pathUtil.dirname(filePath);
+                        if(result){
+                            mkDirP(p,function(){
+                                var s = fs.createWriteStream(filePath);
+                                s.write(result,function(){
+                                    log.debug("%s write complete",filePath);
+                                });
+                            });
+                        }
+
                     }
 
                 });
 
 
             }else{
+
                 if(pres){
-                    res.set(pres.headers);
-                    res.write("");
-                    res.end();
+                    log.debug("not modified %s",req.headers["if-modified-since"] == pres.headers["last-modified"]);
+                    if(pres.statusCode != 304){
+
+                        if(req.headers["if-modified-since"] == pres.headers["last-modified"]){
+                            res.send(304);
+                        } else{
+                            res.set(pres.headers);
+                            res.write(result);
+                            res.end();
+                        }
+
+                    } else{
+                        res.send(304);
+                    }
+
                 }else{
                     filePath = decodeURIComponent(filePath);
                     log.debug(filePath);
+                    var accept = req.headers["accept"];
+                    var reg = /text\/[^,]+/;
+                    var r = reg.exec(accept);
+                    if(r){
+                        res.set({"content-type":r[0]});
+                    }
                     res.sendfile(filePath);
                 }
 
