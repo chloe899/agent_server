@@ -205,7 +205,7 @@ function isText(res){
     var headerKeys = _.keys(res.headers);
     var contentType = "";
     var reg = /Content-Type/ig;
-    var reg1 = /text\//ig;
+    var reg1 = /(text\/|application\/x-javascript)/ig;
     var contentTypeKey = _.find(headerKeys,function(key){
         var result = reg.test(key);
         reg.lastIndex = 0;
@@ -457,7 +457,7 @@ server.use(function(req,res,next){
                     res.write(result);
                     res.end();
 
-                    if(!query && !/(\.aspx|\.ashx)/.test(filePath)){
+                    if(!query && !/(\.aspx|\.ashx)/ig.test(filePath)){
                          var p  = pathUtil.dirname(filePath);
                          mkDirP(p,function(){
                          var s = fs.createWriteStream(filePath);
@@ -471,9 +471,16 @@ server.use(function(req,res,next){
 
 
             }else{
-                filePath = decodeURIComponent(filePath);
-                log.debug(filePath);
-                res.sendfile(filePath);
+                if(pres){
+                    res.set(pres.headers);
+                    res.write("");
+                    res.end();
+                }else{
+                    filePath = decodeURIComponent(filePath);
+                    log.debug(filePath);
+                    res.sendfile(filePath);
+                }
+
                 //fs.createReadStream(decodeURIComponent(filePath)).pipe(res);
             }
 
