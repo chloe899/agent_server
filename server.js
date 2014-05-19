@@ -414,7 +414,11 @@ server.use(function(req,res,next){
     var query = "";
     query = urlInfo.search;
     if(query){
-        filePath = filePath + query;
+        var queryName = query.replace(/\//g, "_");
+         queryName = queryName.replace(/%u([0-9a-fA-F]{4})/g, function(a, b){
+             return String.fromCharCode(+("0x"+ b));
+         });
+        filePath = filePath + queryName;
     }
 
     filePath = decodeURIComponent(filePath);
@@ -425,6 +429,7 @@ server.use(function(req,res,next){
 
     }
     log.debug("file path = %s",filePath);
+    log.debug(req.query);
     //var host = "http://teespring.com";
 
     log.debug(filePath);
@@ -446,7 +451,7 @@ server.use(function(req,res,next){
                         query = replaceBaseHost(query);
                         query = query || "";
                         var externalUrl = host  + prefix + urlInfo.pathname + query;
-                        //log.debug(externalUrl);
+                        log.debug(externalUrl);
                         getRequest(externalUrl,req.headers, function(err, res, body){
                             if(err){
                                 log.error(err);
@@ -515,8 +520,10 @@ server.use(function(req,res,next){
                     var status = pres.statusCode;
                     log.debug("response status is %s", status);
                     if(status != 304){
-                        log.debug("is modified %s",req.headers["if-modified-since"] == pres.headers["last-modified"]);
-                        if(req.headers["if-modified-since"] == pres.headers["last-modified"]){
+                        log.debug(req.headers);
+                        var header = req.headers["if-modified-since"];
+                        log.debug("is modified %s" == pres.headers["last-modified"]);
+                        if(header && header == pres.headers["last-modified"]){
                             res.send(304);
                         } else{
                             res.set(pres.headers);
@@ -547,10 +554,11 @@ server.use(function(req,res,next){
             }else{
 
                 if(pres){
+                    log.debug(req.headers);
                     log.debug("not modified %s",req.headers["if-modified-since"] == pres.headers["last-modified"]);
                     if(pres.statusCode != 304){
-
-                        if(req.headers["if-modified-since"] == pres.headers["last-modified"]){
+                        var h = req.headers["if-modified-since"];
+                        if( h && h == pres.headers["last-modified"]){
                             res.send(304);
                         } else{
                             res.set(pres.headers);
