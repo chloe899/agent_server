@@ -50,8 +50,7 @@ function getPostData(req,res){
     log.debug(data);
     var headers = req.headers;
     headers = replaceHeaderHost(headers);
-    var options = {url:eUrl,headers:headers,encoding:null,body:dataStr,method:"POST"};
-    log.debug(options);
+    var options = {url:eUrl,headers:headers,encoding:null,followRedirect:false,body:dataStr,method:"POST"};
     async.waterfall([
         function(cb){
             request(options, function(err, res, body){
@@ -144,7 +143,7 @@ server.disable("x-powered-by");
 var basePath = "tmp/cnki.net";
 var proxyHost = "cnki.net";
 var listenPort  = 8929;
-var serverHost = "test.local";
+
 var accessHost = "test.local";
 var accessPort = "8929";
 
@@ -236,14 +235,6 @@ if(argvObj["h"]){
         proxyHost = proxyHost.replace(reg,"");
     }
     log.debug("proxy host %s",proxyHost);
-}
-if(argvObj["sh"]){
-    serverHost = argvObj["sh"];
-    var reg = /([\/]*)$/;
-    if(reg.test(serverHost)){
-        serverHost = serverHost.replace(reg,"");
-    }
-    log.debug("server host %s",serverHost);
 }
 
 
@@ -354,6 +345,26 @@ function replaceBaseHost(originValue){
     return originValue;
 }
 
+function replaceProxyHost(originValue){
+    if(!originValue){
+        return originValue;
+    }
+    var pattern = proxyHost;
+    var  pattern1 = encodeURIComponent(pattern).replace(".", "\\.");
+    pattern = pattern.replace(".", "\\.");
+
+    log.debug(pattern);
+    var reg = new RegExp(pattern, "ig");
+    var reg1 = new RegExp(pattern1, "ig");
+    var baseURI = accessHost;
+    if(accessPort != 80){
+        baseURI = accessHost + ":" + accessPort;
+    }
+    originValue = originValue.replace(reg, baseURI);
+    originValue = originValue.replace(reg1, encodeURIComponent(baseURI));
+    return originValue;
+}
+
 
 function replaceHeaderHost(headers){
     var replaceArr = ["host", "cookie", "referer"];
@@ -382,13 +393,15 @@ function getRequest(externalUrl,headers,cb){
         if(res.headers["Location"] || res.headers["location"]){
             var url = res.headers["Location"] || res.headers["location"];
             log.debug(res.headers);;
-            if(!/^http(s)?:\/\/?/i.test(url)){
-                url = baseUrl + url;
+            if(/^http(s)?:\/\/?/i.test(url)){
+                url = replaceProxyHost(url);
             }
-            getRequest(url,headers,cb);
-        } else{
-            cb(err,res,body);
+            res.headers["location"] = url;
+            res.headers["Location"] = url;
+
         }
+        cb(err,res,body);
+
     });
 }
 
@@ -415,13 +428,17 @@ server.use(function(req,res,next){
     query = urlInfo.search;
     if(query){
         var queryName = query.replace(/\//g, "_");
-         queryName = queryName.replace(/%u([0-9a-fA-F]{4})/g, function(a, b){
-             return String.fromCharCode(+("0x"+ b));
-         });
+        queryName = queryName.replace(/%u([0-9a-fA-F]{4})/g, function(a, b){
+            return String.fromCharCode(+("0x"+ b));
+        });
         filePath = filePath + queryName;
     }
+     try{
+         filePath = decodeURIComponent(filePath);
+     } catch(e){
+        log.error(e);
+     }
 
-    filePath = decodeURIComponent(filePath);
     log.debug(req.host);
 
     if(/\/$/.test(filePath)){
@@ -518,6 +535,7 @@ server.use(function(req,res,next){
                     log.debug(typeof(result));
                     //result = result.toString();
                     var status = pres.statusCode;
+                    log.debug(typeof(status));
                     log.debug("response status is %s", status);
                     if(status != 304){
                         log.debug(req.headers);
@@ -525,14 +543,18 @@ server.use(function(req,res,next){
                         log.debug("is modified %s" == pres.headers["last-modified"]);
                         if(header && header == pres.headers["last-modified"]){
                             res.send(304);
+                        } else if(status > 300 && status <= 320){
+                            res.set(pres.headers);
+                            res.send(status);
                         } else{
+                            log.debug(pres.headers);
                             res.set(pres.headers);
                             res.write(result);
                             res.end();
                         }
 
                     } else{
-                      res.send(304);
+                        res.send(304);
                     }
 
                     if(!query && !/(\.aspx|\.ashx)/ig.test(filePath)){
@@ -556,19 +578,10 @@ server.use(function(req,res,next){
                 if(pres){
                     log.debug(req.headers);
                     log.debug("not modified %s",req.headers["if-modified-since"] == pres.headers["last-modified"]);
-                    if(pres.statusCode != 304){
-                        var h = req.headers["if-modified-since"];
-                        if( h && h == pres.headers["last-modified"]){
-                            res.send(304);
-                        } else{
-                            res.set(pres.headers);
-                            res.write(result);
-                            res.end();
-                        }
+                    log.debug(pres.headers);
+                    res.set(pres.headers);
+                    res.send(pres.statusCode);
 
-                    } else{
-                        res.send(304);
-                    }
 
                 }else{
                     filePath = decodeURIComponent(filePath);
