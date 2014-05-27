@@ -252,17 +252,6 @@ function replaceEncoding(html,toEncoding){
     return html;
 
 }
-function replaceHeaderEncoding(res){
-    var reg = /charset="?([a-zA-Z0-9-]+)"?/ig;
-    var reg = /<meta[^>]*charset="?([a-zA-Z0-9-]+)"?[^>]*\/?>/ig;
-    html =  html.replace(reg,function(all,b){
-        log.debug(b);
-        all =   all.replace(b,toEncoding);
-        return all;
-    });
-    return html;
-
-}
 
 
 

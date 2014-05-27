@@ -308,6 +308,21 @@ function replaceEncoding(html,toEncoding){
 
 }
 
+function replaceSrc(html, host, originUrl){
+
+    var reg = /(src|href)="?([^>"]+)"?/ig;
+
+    html =   html.replace(reg, function(all, attr, attrVal){
+        if(/^\//.test(attrVal)){
+            //var urlInfo = urlUtil.parse(originUrl);
+            return attr + "=\"/" + host +  attrVal +"\""
+        }
+    });
+
+    return html;
+
+};
+
 
 
 
@@ -372,6 +387,7 @@ function replaceHeaderHost(headers){
         var value = headers[k];
         if(value){
             headers[k] = replaceBaseHost(value);
+
         }
     });
     return headers;
@@ -433,11 +449,11 @@ server.use(function(req,res,next){
         });
         filePath = filePath + queryName;
     }
-     try{
-         filePath = decodeURIComponent(filePath);
-     } catch(e){
+    try{
+        filePath = decodeURIComponent(filePath);
+    } catch(e){
         log.error(e);
-     }
+    }
 
     log.debug(req.host);
 
