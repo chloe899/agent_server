@@ -8,7 +8,6 @@
         "underscore" : "1.4.4",
         "request" : "> 2.11.0",
         "async" : "0.2.5",
-        "iconv" : "latest",
         "iconv-lite":"latest"
     },
     "devDependencies": {
