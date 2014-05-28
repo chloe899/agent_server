@@ -11,9 +11,6 @@
         "iconv-lite":"latest"
     },
     "devDependencies": {
-        "node-dev" : "0.2.7" ,
-        "nodeunit" : "0.7.4",
-        "jasmine-node" : "1.0.26",
         "mocha": "1.4.2"
     },
     "engines": {
