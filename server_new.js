@@ -28,21 +28,30 @@ function getHostFromReferer(req){
     }
     return host;
 }
+server.use(function(req, res, next){
+   var url = req.url;
+   var reg = /favicon\.ico$/;
+    if(reg.test(url)){
+        res.sendfile("images/favicon.ico");
+    } else{
+        next();
+    }
+
+});
 
 server.use(function(req, res ,next){
     var url = req.url;
     if(config.model == "single"){
-        var pattern = config.proxyHost.replace(/\./ig, "\\.");
-        var reg = new RegExp(pattern, "i");
-        if(!reg.test(url)){
+        var host = proxyUtil.getTargetHost(req);
+
+        if(!host){
             var urlInfo = urlUtil.parse(url);
             log.debug(urlInfo);
             var host = getHostFromReferer(req) || config.proxyHost;
             var newUrl = "/" + host + urlInfo.href;
             res.set({"Location": newUrl});
             res.send(302);
-            /*req.url = newUrl;
-            next();*/
+
         }else{
             next();
         }
