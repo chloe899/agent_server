@@ -4,7 +4,9 @@ module.exports = {
     proxyHost:"duxiu.com",
     model:"single",
     savePath:"tmp/duxiu",
-    cacheFile:false
+    cacheFile:false,
+    loginUrl:"",
+    "verifyUrl":""
 
 
 };

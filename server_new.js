@@ -1,6 +1,8 @@
 var express = require('express');
 var urlUtil = require('url');
 
+var request = require("request");
+
 
 var proxyUtil = require("./lib/proxy");
 
@@ -28,15 +30,44 @@ function getHostFromReferer(req){
     }
     return host;
 }
+
+
+
+
 server.use(function(req, res, next){
    var url = req.url;
    var reg = /favicon\.ico$/;
-    if(reg.test(url)){
+    var loginUrl = config.loginUrl;
+    var verifyUrl = config.verifyUrl;
+    if(loginUrl && reg.test(url)){
+        request(loginUrl).pipe(res);
+    } else{
+       if(verifyUrl){
+           request(verifyUrl, function(err, vRes, body){
+               if(body == "true"){
+                   next();
+               }else{
+                   res.redirect("/login?" + url);
+               }
+           });
+       }else{
+           next();
+       }
+
+    }
+
+});
+
+
+server.use(function(req, res, next){
+    var url = req.url;
+    var urlInfo = urlUtil.parse(url);
+    var reg = /login$/;
+    if(reg.test(urlInfo.pathname)){
         res.sendfile("images/favicon.ico");
     } else{
         next();
     }
-
 });
 
 server.use(function(req, res ,next){
