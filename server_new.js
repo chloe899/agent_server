@@ -34,40 +34,43 @@ function getHostFromReferer(req){
 
 
 
+
+
 server.use(function(req, res, next){
-   var url = req.url;
-   var reg = /favicon\.ico$/;
-    var loginUrl = config.loginUrl;
-    var verifyUrl = config.verifyUrl;
-    if(loginUrl && reg.test(url)){
-        request(loginUrl).pipe(res);
+    var url = req.url;
+
+    var reg = /favicon\.ico$/;
+    if(reg.test(url)){
+        res.sendfile("images/favicon.ico");
     } else{
-       if(verifyUrl){
-           request(verifyUrl, function(err, vRes, body){
-               if(body == "true"){
-                   next();
-               }else{
-                   res.redirect("/login?" + url);
-               }
-           });
-       }else{
-           next();
-       }
-
+        next();
     }
-
 });
 
 
 server.use(function(req, res, next){
     var url = req.url;
+    var reg = /login\.html$/;
     var urlInfo = urlUtil.parse(url);
-    var reg = /login$/;
-    if(reg.test(urlInfo.pathname)){
-        res.sendfile("images/favicon.ico");
+    var loginUrl = config.loginUrl;
+    var verifyUrl = config.verifyUrl;
+    if(loginUrl && reg.test(urlInfo.pathname)){
+        request(loginUrl).pipe(res);
     } else{
-        next();
+        if(verifyUrl){
+            request(verifyUrl, function(err, vRes, body){
+                if(body == "true"){
+                    next();
+                }else{
+                    res.redirect("/login?" + url);
+                }
+            });
+        }else{
+            next();
+        }
+
     }
+
 });
 
 server.use(function(req, res ,next){
