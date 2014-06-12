@@ -62,7 +62,9 @@ server.use(function(req, res, next){
             var options = {url:loginUrl,headers:req.headers,encoding:null,followRedirect:false,body:dataStr,method:"POST"};
             request(options).pipe(res);
         }else{
-            request(loginUrl).pipe(res);
+            var toUrl = url.indexOf("?");
+            toUrl = url.substr(toUrl+1);
+            request(loginUrl + "?" + toUrl).pipe(res);
         }
 
     } else{
