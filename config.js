@@ -1,7 +1,7 @@
 module.exports = {
     accessPort:8929,
     accessHost:"localhost",
-    proxyHost:"duxiu.com",
+    proxyHost:"cnki.net",
     model:"single",
     savePath:"tmp/duxiu",
     cacheFile:false,
