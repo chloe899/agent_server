@@ -94,8 +94,14 @@ server.use(function(req, res ,next){
             log.debug(urlInfo);
             var host = getHostFromReferer(req) || config.proxyHost;
             var newUrl = "/" + host + urlInfo.href;
-            res.set({"Location": newUrl});
-            res.send(302);
+            if(req.method == "POST"){
+                req.url = newUrl;
+                next();
+            }else{
+                res.set({"Location": newUrl});
+                res.send(302);
+            }
+
 
         }else{
             next();
