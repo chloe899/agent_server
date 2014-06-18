@@ -16,6 +16,7 @@ var server = express();
 
 server.use(express.bodyParser());
 server.use(express.cookieParser());
+server.use("/agent_static_file/", express.static(__dirname + '/static'));
 server.disable("x-powered-by");
 
 function getHostFromReferer(req){
