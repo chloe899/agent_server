@@ -18,3 +18,14 @@ function setAction(form, host){
 
 
 }
+
+(function(){
+    if($ && $.post){
+      var originPost = $.post;
+      var args = arguments;
+
+
+    }
+
+
+});
