@@ -1,6 +1,11 @@
 
-function setAction(form, host){
-    var action = form.action;
+function setAction(form){
+    var action = form.getAttribute("action");
+    var host = _agent_base_host;
+    if(!host){
+        return;
+    }
+
     action = action || "";
     action = action.toLowerCase();
     host = host.toLowerCase();
@@ -10,11 +15,14 @@ function setAction(form, host){
     if(path){
         action = path;
     }
+    alert(host);
+    alert(action);
     if(action.indexOf("/") == 0 && action.indexOf(host) == -1){
-
-        action = "/" + host + "/" + action;
+        alert(8888);
+        action = "/" + host  + action;
+        form.setAttribute("action", action);
     }
-    form.action = action;
+
 
 
 }
