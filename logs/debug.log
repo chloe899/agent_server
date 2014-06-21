@@ -1,0 +1,1148 @@
+[37m[2014-06-21 GMT+0800 14:57:24.158] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'content-length'[39m: [32m'364'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'[39m,
+  origin: [32m'http://localhost:8929'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  [32m'content-type'[39m: [32m'application/x-www-form-urlencoded'[39m,
+  referer: [32m'http://localhost:8929/www.cnki.net'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:24.170] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:24.171] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:24.181] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'content-length'[39m: [32m'364'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'[39m,
+  origin: [32m'http://localhost:8929'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  [32m'content-type'[39m: [32m'application/x-www-form-urlencoded'[39m,
+  referer: [32m'http://localhost:8929/www.cnki.net'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:24.197] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/www.cnki.net
+[37m[2014-06-21 GMT+0800 14:57:28.712] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:28.715] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:28.721] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:28.724] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:28.730] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:28.747] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:28.756] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:28.757] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:28.896] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"08a90bf1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:16:04 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:28.897] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/jquery-1.4.2.min.js
+[37m[2014-06-21 GMT+0800 14:57:28.905] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/jquery-1.4.2.min.js
+[37m[2014-06-21 GMT+0800 14:57:28.927] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"08a90bf1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:16:04 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:28.929] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:28.950] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/css,*/*;q=0.1'[39m,
+  [32m'if-none-match'[39m: [32m'"062acd9415cf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Mon, 30 Dec 2013 09:31:00 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:28.951] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/css/gb_min/simple.min.css?v=00E263BABE23AAFD
+[37m[2014-06-21 GMT+0800 14:57:28.951] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/css/gb_min/simple.min.css?v=00E263BABE23AAFD
+[37m[2014-06-21 GMT+0800 14:57:28.959] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/css,*/*;q=0.1'[39m,
+  [32m'if-none-match'[39m: [32m'"062acd9415cf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Mon, 30 Dec 2013 09:31:00 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:28.961] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:28.973] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"0869b2ae7acf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 28 May 2014 00:45:48 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:28.974] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/min/gb.ResultPage.min.js?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:28.975] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/min/gb.ResultPage.min.js?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:28.980] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"0869b2ae7acf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 28 May 2014 00:45:48 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:28.983] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:29.002] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/css,*/*;q=0.1'[39m,
+  [32m'if-none-match'[39m: [32m'"01391625321ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 15 Mar 2013 08:02:06 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:29.003] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/css/gb_min/colortip.min.css?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:29.004] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/css/gb_min/colortip.min.css?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:29.008] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/css,*/*;q=0.1'[39m,
+  [32m'if-none-match'[39m: [32m'"01391625321ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 15 Mar 2013 08:02:06 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:29.009] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:29.023] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"0d4224de489ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 26 Jul 2013 09:41:28 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:29.024] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/min/colortip.min.js?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:29.026] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/min/colortip.min.js?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:29.032] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"0d4224de489ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 26 Jul 2013 09:41:28 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:29.034] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:29.046] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:29.050] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/s_jiantou01.gif
+[37m[2014-06-21 GMT+0800 14:57:29.051] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/s_jiantou01.gif
+[37m[2014-06-21 GMT+0800 14:57:29.057] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:29.057] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:31.191] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:31.192] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:31.193] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:31.193] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:31.239] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:31.240] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:31.241] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:31.242] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:31.261] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:31.267] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:31.268] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:31.268] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:31.275] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:31.276] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:31.278] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:31.287] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:31.487] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:31.489] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/backTop2.gif
+[37m[2014-06-21 GMT+0800 14:57:31.491] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/backTop2.gif
+[37m[2014-06-21 GMT+0800 14:57:31.512] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:31.514] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:33.454] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:33.455] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:33.456] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:33.457] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:33.624] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"08a90bf1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:16:04 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.627] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/script/Json_Category.js
+[37m[2014-06-21 GMT+0800 14:57:33.628] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/script/Json_Category.js
+[37m[2014-06-21 GMT+0800 14:57:33.637] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"08a90bf1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:16:04 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.638] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:33.697] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"0d4224de489ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 26 Jul 2013 09:41:28 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.698] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/min/cnkisug.min.js?v=5100AA0B3B71631C
+[37m[2014-06-21 GMT+0800 14:57:33.704] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/min/cnkisug.min.js?v=5100AA0B3B71631C
+[37m[2014-06-21 GMT+0800 14:57:33.709] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"0d4224de489ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 26 Jul 2013 09:41:28 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.717] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:33.737] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:33.738] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:33.739] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:33.740] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:33.763] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"01544ee489ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 26 Jul 2013 09:41:30 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.780] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/min/jquery.hoverdelay.min.js?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:33.781] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/min/jquery.hoverdelay.min.js?v=D59787997F3B8FCE
+[37m[2014-06-21 GMT+0800 14:57:33.785] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"01544ee489ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Fri, 26 Jul 2013 09:41:30 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.790] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:33.931] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.939] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/request/GetUserSeesHandler.ashx?action=UserSees&&UserSees=WYJY200504010!CJFQ!CJFDHIS|&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:33.941] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/request/GetUserSeesHandler.ashx?action=UserSees&&UserSees=WYJY200504010!CJFQ!CJFDHIS|&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:33.947] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.949] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:33.960] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.961] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/request/GetUserDownLoadsHandler.ashx?action=UserDownLoads&&UserDownLoads=&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:33.963] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/request/GetUserDownLoadsHandler.ashx?action=UserDownLoads&&UserDownLoads=&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:33.967] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:33.969] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:34.063] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:34.064] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:34.069] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:34.075] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:34.119] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:34.122] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/request/GetHisKeyWordsHandler.ashx?action=HisKeyWords&&UserSees=WYJY200504010!CJFQ!CJFDHIS|&UserDownLoads=&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:34.129] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/request/GetHisKeyWordsHandler.ashx?action=HisKeyWords&&UserSees=WYJY200504010!CJFQ!CJFDHIS|&UserDownLoads=&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:34.140] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:34.142] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:35.899] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:35.900] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:35.903] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:35.905] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:35.918] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:35.931] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/Request/GetAptitude_searchHandler.ashx?action=Recommend_tip&kw=%u8BA1%u7B97%u673A&dbcode=SCDB&selectedField=%E5%85%A8%E6%96%87&valueFiled=FT%24%25%3D%7C%2CSU%24%25%3D%7C%2CTI%24%25%3D%7C%2CAU%24%3D%7C%2CAF%24%25%2CKY%24%3D%7C%2CAB%24%25%3D%7C%2CRF%24%25%3D%7C%2CCLC%24%3D%7C%3F%3F%2CLY%24%3D%7C%2C&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:35.936] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/Request/GetAptitude_searchHandler.ashx?action=Recommend_tip&kw=%u8BA1%u7B97%u673A&dbcode=SCDB&selectedField=%E5%85%A8%E6%96%87&valueFiled=FT%24%25%3D%7C%2CSU%24%25%3D%7C%2CTI%24%25%3D%7C%2CAU%24%3D%7C%2CAF%24%25%2CKY%24%3D%7C%2CAB%24%25%3D%7C%2CRF%24%25%3D%7C%2CCLC%24%3D%7C%3F%3F%2CLY%24%3D%7C%2C&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:35.944] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:35.947] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:36.054] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:36.059] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:36.063] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:36.074] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:36.079] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:36.082] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:36.088] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:36.090] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:36.123] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:36.124] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/KNS/request/getucHandler.ashx?action=getuc&uc=skin%2Fkns%2FResultHeader.ascx&dbPrefix=SCDB&rel=http%3A%2F%2Flocalhost%3A8929%2Fepub.cnki.net%2Fkns%2Fbrief%2Fdefault_result.aspx&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:36.129] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/KNS/request/getucHandler.ashx?action=getuc&uc=skin%2Fkns%2FResultHeader.ascx&dbPrefix=SCDB&rel=http%3A%2F%2Flocalhost%3A8929%2Fepub.cnki.net%2Fkns%2Fbrief%2Fdefault_result.aspx&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:36.133] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:36.136] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:36.558] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:36.560] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:36.561] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:36.563] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:36.586] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:36.589] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/KNS/request/getucHandler.ashx?action=getuc&uc=skin%2Fkns%2FSiteFooter.ascx&dbPrefix=SCDB&rel=http%3A%2F%2Flocalhost%3A8929%2Fepub.cnki.net%2Fkns%2Fbrief%2Fdefault_result.aspx&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:36.590] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/KNS/request/getucHandler.ashx?action=getuc&uc=skin%2Fkns%2FSiteFooter.ascx&dbPrefix=SCDB&rel=http%3A%2F%2Flocalhost%3A8929%2Fepub.cnki.net%2Fkns%2Fbrief%2Fdefault_result.aspx&__=Sat%20Jun%2021%202014%2014%3A57%3A33%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:36.604] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:36.612] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:36.892] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:36.895] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:36.904] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:36.906] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:36.908] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:36.916] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:36.917] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:36.920] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:37.010] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:37.014] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/request/GetWebGroupHandler.ashx?action=webGroup&&NaviCode=*&ua=1.11&PageName=ASP.brief_default_result_aspx&DbPrefix=SCDB&DbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&db_opt=CJFQ%2CCJFN%2CCDFD%2CCMFD%2CCPFD%2CIPFD%2CCCND%2CCCJD%2CHBRD&txt_1_sel=FT%24%25%3D%7C&txt_1_value1=%E8%AE%A1%E7%AE%97%E6%9C%BA&txt_1_special1=%25&his=0&parentdb=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A36%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:37.015] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/request/GetWebGroupHandler.ashx?action=webGroup&&NaviCode=*&ua=1.11&PageName=ASP.brief_default_result_aspx&DbPrefix=SCDB&DbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&db_opt=CJFQ%2CCJFN%2CCDFD%2CCMFD%2CCPFD%2CIPFD%2CCCND%2CCCJD%2CHBRD&txt_1_sel=FT%24%25%3D%7C&txt_1_value1=%E8%AE%A1%E7%AE%97%E6%9C%BA&txt_1_special1=%25&his=0&parentdb=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A36%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:37.019] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:37.022] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:37.327] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:37.328] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:37.329] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:37.330] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:37.358] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:37.359] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/KNS/request/SearchHandler.ashx?action=&NaviCode=*&ua=1.11&PageName=ASP.brief_default_result_aspx&DbPrefix=SCDB&DbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&db_opt=CJFQ%2CCJFN%2CCDFD%2CCMFD%2CCPFD%2CIPFD%2CCCND%2CCCJD%2CHBRD&txt_1_sel=FT%24%25%3D%7C&txt_1_value1=%E8%AE%A1%E7%AE%97%E6%9C%BA&txt_1_special1=%25&his=0&parentdb=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A36%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:37.361] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/KNS/request/SearchHandler.ashx?action=&NaviCode=*&ua=1.11&PageName=ASP.brief_default_result_aspx&DbPrefix=SCDB&DbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&db_opt=CJFQ%2CCJFN%2CCDFD%2CCMFD%2CCPFD%2CIPFD%2CCCND%2CCCJD%2CHBRD&txt_1_sel=FT%24%25%3D%7C&txt_1_value1=%E8%AE%A1%E7%AE%97%E6%9C%BA&txt_1_special1=%25&his=0&parentdb=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A36%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:37.364] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:37.365] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:37.928] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:37.929] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:37.930] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:37.931] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:37.947] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:37.948] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/images/GB/loading.gif
+[37m[2014-06-21 GMT+0800 14:57:37.949] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/images/GB/loading.gif
+[37m[2014-06-21 GMT+0800 14:57:37.973] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:37.976] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:38.337] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:38.340] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:38.344] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:38.348] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:38.350] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:38.353] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:38.355] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:38.357] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:38.379] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:38.380] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/logo_xl.gif
+[37m[2014-06-21 GMT+0800 14:57:38.385] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/logo_xl.gif
+[37m[2014-06-21 GMT+0800 14:57:38.389] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:38.398] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:38.408] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:38.410] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:38.413] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:38.422] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:38.425] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:38.428] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:38.429] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:38.431] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:38.462] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:38.463] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/logo_tx.gif
+[37m[2014-06-21 GMT+0800 14:57:38.465] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/logo_tx.gif
+[37m[2014-06-21 GMT+0800 14:57:38.474] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:38.475] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:38.731] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:38.732] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:38.734] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:38.736] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:38.738] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:38.742] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:38.745] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:38.747] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:38.816] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:38.818] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/Request/login.aspx?&td=1403333858530
+[37m[2014-06-21 GMT+0800 14:57:38.818] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/Request/login.aspx?&td=1403333858530
+[37m[2014-06-21 GMT+0800 14:57:38.820] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:38.821] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:39.458] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:39.463] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:39.465] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:39.471] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:39.474] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:39.477] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:39.479] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:39.480] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:39.500] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-modified-since'[39m: [32m'Tue, 21 May 2013 06:39:22 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:39.501] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/KNS/WebResource.axd?d=go7fQ4n1rNanXV5H3fIFDI5ULWYMWNjna_IerICDuxUhXeiUaUfFo-QTjhSE_PtSQryfSxg_9LLQWwr0YdjT7BVWIlvQCQG17Sl-oNP-uRQ68jQf0&t=635047439620000000
+[37m[2014-06-21 GMT+0800 14:57:39.502] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/KNS/WebResource.axd?d=go7fQ4n1rNanXV5H3fIFDI5ULWYMWNjna_IerICDuxUhXeiUaUfFo-QTjhSE_PtSQryfSxg_9LLQWwr0YdjT7BVWIlvQCQG17Sl-oNP-uRQ68jQf0&t=635047439620000000
+[37m[2014-06-21 GMT+0800 14:57:39.504] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-modified-since'[39m: [32m'Tue, 21 May 2013 06:39:22 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:39.505] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:40.002] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:40.004] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:40.005] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:40.006] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:40.029] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:40.031] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:40.032] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:40.036] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:40.038] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:40.605] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:40.606] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:40.607] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:40.607] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:40.628] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:40.630] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/request/GetRelevantHandler.ashx?action=relevant&pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1&spfield=FT%24%25%3D%7C&spvalue=%E8%AE%A1%E7%AE%97%E6%9C%BA&db_value=&__=Sat%20Jun%2021%202014%2014%3A57%3A39%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:40.632] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/request/GetRelevantHandler.ashx?action=relevant&pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1&spfield=FT%24%25%3D%7C&spvalue=%E8%AE%A1%E7%AE%97%E6%9C%BA&db_value=&__=Sat%20Jun%2021%202014%2014%3A57%3A39%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:40.634] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:40.635] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:40.875] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:40.877] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:40.879] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:40.880] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:40.882] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:40.884] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:40.885] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:40.886] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:40.916] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:40.917] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/footlogo.png
+[37m[2014-06-21 GMT+0800 14:57:40.918] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/footlogo.png
+[37m[2014-06-21 GMT+0800 14:57:40.920] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:40.921] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:41.251] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:41.253] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:41.253] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:41.254] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:41.261] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:41.262] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:41.263] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:41.265] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:41.276] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:41.277] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/logo.gif
+[37m[2014-06-21 GMT+0800 14:57:41.278] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/logo.gif
+[37m[2014-06-21 GMT+0800 14:57:41.282] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:41.283] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:41.293] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:41.294] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/home.gif
+[37m[2014-06-21 GMT+0800 14:57:41.294] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/home.gif
+[37m[2014-06-21 GMT+0800 14:57:41.306] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:41.307] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:42.690] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:42.692] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:42.699] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:42.705] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:42.707] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:42.709] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:42.711] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:42.719] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:42.764] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:42.766] DEBUG    [0m ./lib/proxy.js:119 - /acad.cnki.net/sug/su.ashx?action=getsmarttips&kw=%E8%AE%A1%E7%AE%97%E6%9C%BA&p=0.5192420517560095&td=1403333862750
+[37m[2014-06-21 GMT+0800 14:57:42.766] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://acad.cnki.net/sug/su.ashx?action=getsmarttips&kw=%E8%AE%A1%E7%AE%97%E6%9C%BA&p=0.5192420517560095&td=1403333862750
+[37m[2014-06-21 GMT+0800 14:57:42.775] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'acad.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:42.776] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:43.199] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:43.201] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:43.202] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:43.203] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:43.549] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:43.550] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:43.551] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:43.551] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:44.121] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:44.122] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:44.123] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:44.125] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:45.694] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:45.697] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:45.737] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:45.740] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:45.742] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:45.744] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:45.746] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:45.747] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:46.059] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:46.060] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:46.065] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:46.067] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:46.070] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:46.188] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:46.190] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:46.192] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:46.308] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/css,*/*;q=0.1'[39m,
+  [32m'if-none-match'[39m: [32m'"062acd9415cf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Mon, 30 Dec 2013 09:31:00 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.310] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/css/gb_min/simple.min.css?v=00E263BABE23AAFD
+[37m[2014-06-21 GMT+0800 14:57:46.311] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/css/gb_min/simple.min.css?v=00E263BABE23AAFD
+[37m[2014-06-21 GMT+0800 14:57:46.320] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'text/css,*/*;q=0.1'[39m,
+  [32m'if-none-match'[39m: [32m'"062acd9415cf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Mon, 30 Dec 2013 09:31:00 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.326] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:46.353] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"08a90bf1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:16:04 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.355] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/jquery-1.4.2.min.js
+[37m[2014-06-21 GMT+0800 14:57:46.357] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/jquery-1.4.2.min.js
+[37m[2014-06-21 GMT+0800 14:57:46.366] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'if-none-match'[39m: [32m'"08a90bf1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:16:04 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.368] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:46.387] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"80ef22ae7acf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 28 May 2014 00:45:47 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333605631&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.389] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/script/min/gb.BriefPage.min.js?v=5100AA0B3B71631C
+[37m[2014-06-21 GMT+0800 14:57:46.391] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/script/min/gb.BriefPage.min.js?v=5100AA0B3B71631C
+[37m[2014-06-21 GMT+0800 14:57:46.398] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'*/*'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"80ef22ae7acf1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 28 May 2014 00:45:47 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333605631&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.399] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333605631&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:46.428] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333713649&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.430] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/images/gb/icon-d.gif
+[37m[2014-06-21 GMT+0800 14:57:46.432] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/images/gb/icon-d.gif
+[37m[2014-06-21 GMT+0800 14:57:46.440] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333713649&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.441] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333713649&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:46.455] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403331897880&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.459] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/login_download.gif
+[37m[2014-06-21 GMT+0800 14:57:46.460] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/login_download.gif
+[37m[2014-06-21 GMT+0800 14:57:46.472] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403331897880&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:46.472] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403331897880&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:48.584] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:48.585] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:48.586] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:48.588] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:48.637] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:48.639] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:48.641] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:48.642] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:48.660] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:48.663] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:48.664] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:48.666] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:48.995] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:49.000] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:49.002] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:49.006] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:49.549] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:49.550] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/request/RightValid.ashx?q=11&c=1&l=20&dbprefix=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A49%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:49.551] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/request/RightValid.ashx?q=11&c=1&l=20&dbprefix=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A49%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:49.553] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:49.558] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403333859488&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:49.601] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:49.603] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:49.604] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:49.608] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:49.630] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403331897880&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:49.638] DEBUG    [0m ./lib/proxy.js:119 - /piccache.cnki.net//KNS/images/gb/checkboxbook.png
+[37m[2014-06-21 GMT+0800 14:57:49.640] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://piccache.cnki.net//KNS/images/gb/checkboxbook.png
+[37m[2014-06-21 GMT+0800 14:57:49.646] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'piccache.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403331897880&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:49.648] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/brief.aspx?pagename=ASP.brief_default_result_aspx&dbPrefix=SCDB&dbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&research=off&t=1403331897880&keyValue=%E8%AE%A1%E7%AE%97%E6%9C%BA&S=1
+[37m[2014-06-21 GMT+0800 14:57:50.755] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:50.758] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:50.760] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:50.760] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:51.319] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:51.320] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:51.320] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:51.321] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:52.175] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:57:52.177] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:52.177] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:57:52.178] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:52.273] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:52.280] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/group/DoGroupLeft.ashx?action=1&Param=ASP.brief_default_result_aspx%23SCDB/%u53D1%u8868%u5E74%u5EA6/%u5E74%2Ccount%28*%29/%u5E74/%28%u5E74%2C%27date%27%29%23%u5E74%24desc/1000000%24/-/40/40000/ButtonView&cid=0&clayer=0&__=Sat%20Jun%2021%202014%2014%3A57%3A52%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:52.281] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/group/DoGroupLeft.ashx?action=1&Param=ASP.brief_default_result_aspx%23SCDB/%u53D1%u8868%u5E74%u5EA6/%u5E74%2Ccount%28*%29/%u5E74/%28%u5E74%2C%27date%27%29%23%u5E74%24desc/1000000%24/-/40/40000/ButtonView&cid=0&clayer=0&__=Sat%20Jun%2021%202014%2014%3A57%3A52%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:52.285] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:52.287] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:52.329] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:52.330] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/group/DoGroupLeft.ashx?action=44&mark=&NaviCode=*&ua=1.11&PageName=ASP.brief_default_result_aspx&DbPrefix=SCDB&DbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&db_opt=CJFQ%2CCJFN%2CCDFD%2CCMFD%2CCPFD%2CIPFD%2CCCND%2CCCJD%2CHBRD&txt_1_sel=FT%24%25%3D%7C&txt_1_value1=%E8%AE%A1%E7%AE%97%E6%9C%BA&txt_1_special1=%25&his=0&parentdb=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A52%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:52.331] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/group/DoGroupLeft.ashx?action=44&mark=&NaviCode=*&ua=1.11&PageName=ASP.brief_default_result_aspx&DbPrefix=SCDB&DbCatalog=%e4%b8%ad%e5%9b%bd%e5%ad%a6%e6%9c%af%e6%96%87%e7%8c%ae%e7%bd%91%e7%bb%9c%e5%87%ba%e7%89%88%e6%80%bb%e5%ba%93&ConfigFile=SCDBINDEX.xml&db_opt=CJFQ%2CCJFN%2CCDFD%2CCMFD%2CCPFD%2CIPFD%2CCCND%2CCCJD%2CHBRD&txt_1_sel=FT%24%25%3D%7C&txt_1_value1=%E8%AE%A1%E7%AE%97%E6%9C%BA&txt_1_special1=%25&his=0&parentdb=SCDB&__=Sat%20Jun%2021%202014%2014%3A57%3A52%20GMT%2B0800%20(CST)
+[37m[2014-06-21 GMT+0800 14:57:52.338] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  accept: [32m'*/*'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:57:52.339] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:57:54.050] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:57:54.051] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:57:54.054] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:54.056] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:57:54.064] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:57:54.077] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:57:54.079] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:57:54.082] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:58:01.036] DEBUG    [0m ./lib/proxy.js:467 - isT [33mtrue[39m
+[37m[2014-06-21 GMT+0800 14:58:01.037] DEBUG    [0m ./lib/proxy.js:472 - utf-8
+[37m[2014-06-21 GMT+0800 14:58:01.040] DEBUG    [0m ./lib/proxy.js:222 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:58:01.041] DEBUG    [0m ./lib/proxy.js:232 - cnki\.net
+[37m[2014-06-21 GMT+0800 14:58:01.042] DEBUG    [0m ./lib/proxy.js:284 - has base [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:58:01.051] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:58:01.052] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m200[39m
+[37m[2014-06-21 GMT+0800 14:58:01.053] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m
+[37m[2014-06-21 GMT+0800 14:58:01.075] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'localhost:8929'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:58:01.076] DEBUG    [0m ./lib/proxy.js:119 - /epub.cnki.net/kns/images/gb/s_jiantou01.gif
+[37m[2014-06-21 GMT+0800 14:58:01.080] DEBUG    [0m ./lib/proxy.js:384 - targetUrl is: http://epub.cnki.net/kns/images/gb/s_jiantou01.gif
+[37m[2014-06-21 GMT+0800 14:58:01.082] DEBUG    [0m ./lib/proxy.js:118 - { host: [32m'epub.cnki.net'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  accept: [32m'image/webp,*/*;q=0.8'[39m,
+  [32m'if-none-match'[39m: [32m'"0d6cbba1388ce1:0"'[39m,
+  [32m'if-modified-since'[39m: [32m'Wed, 24 Jul 2013 02:15:56 GMT'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'[39m,
+  referer: [32m'http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip,deflate,sdch'[39m,
+  [32m'accept-language'[39m: [32m'zh-CN,zh;q=0.8,en;q=0.6,es;q=0.4,zh-TW;q=0.2'[39m,
+  cookie: [32m'RsPerPage=20; UserSeesKcms=%u5927%u5B66%u82F1%u8BED%u56DB%u3001%u516D%u7EA7%u8BA1%u7B97%u673A%u53E3%u8BED%u6D4B%u8BD5%u6548%u5EA6%u3001%u4FE1%u5EA6%u548C%u53EF%u64CD%u4F5C%u6027%u7814%u7A76%21cjfq%21cjfdhis%21wyjy200504010%7C; CNZZDATA3258975=cnzz_eid%3D188045088-1402934900-http%253A%252F%252Flocalhost%253A8929%252F%26ntime%3D1402934900; CNZZDATA2088844=cnzz_eid%3D2136313273-1403330413-%26ntime%3D1403330413; JSESSIONID=C18FA6EA674D3662D4BDABD777B04D5D.gharea35; SID=91003; SID_sug=111008; ASP.NET_SessionId=gvmwoljdll3og3rdfas1bm55; SID_kns=120106; LID='[39m }
+[37m[2014-06-21 GMT+0800 14:58:01.083] DEBUG    [0m ./lib/proxy.js:119 - http://localhost:8929/epub.cnki.net/kns/brief/default_result.aspx
+[37m[2014-06-21 GMT+0800 14:58:02.843] DEBUG    [0m ./lib/proxy.js:467 - isT 
+[37m[2014-06-21 GMT+0800 14:58:02.844] DEBUG    [0m ./lib/proxy.js:517 - number
+[37m[2014-06-21 GMT+0800 14:58:02.845] DEBUG    [0m ./lib/proxy.js:518 - response status is [33m304[39m
+[37m[2014-06-21 GMT+0800 14:58:02.846] DEBUG    [0m ./lib/proxy.js:522 - [33mfalse[39m

@@ -9,6 +9,7 @@ var proxyUtil = require("./lib/proxy");
 
 
 var config = require("./config");
+
 var log = require('./lib/logHelper').getLogger();
 
 
@@ -16,6 +17,7 @@ var server = express();
 
 server.use(express.bodyParser());
 server.use(express.cookieParser());
+server.use(express.logger("dev"));
 server.use("/agent_static_file/", express.static(__dirname + '/static'));
 server.disable("x-powered-by");
 
@@ -66,7 +68,14 @@ var  userList = {};
 
 server.use(function(req, res, next){
     var url = req.url;
+    var loginPageName = config.loginPageName;
     var reg = /^\/(agent_login|userLogin)(\.html|\.aspx)?/i;
+    if(loginPageName){
+       loginPageName  = loginPageName.replace(".", "\\.");
+        var pattern = "^/(agent_login(\\.html)?|" + loginPageName + ")?";
+        reg = new RegExp(pattern,"i");
+    }
+
     var urlInfo = urlUtil.parse(url);
     var loginUrl = config.loginUrl;
     var verifyUrl = config.verifyUrl;

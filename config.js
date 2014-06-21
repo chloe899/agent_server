@@ -6,7 +6,8 @@ module.exports = {
     savePath:"tmp/duxiu",
     cacheFile:false,
     loginUrl:"",
-    "verifyUrl":""
+    "verifyUrl":"",
+    "loginPageName":"index.aspx"
 
 
 };
