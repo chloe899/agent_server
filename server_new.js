@@ -80,11 +80,12 @@ server.use(function(req, res, next){
     var loginUrl = config.loginUrl;
     var verifyUrl = config.verifyUrl;
     log.debug(urlInfo.pathname);
-    var options = {url:loginUrl,pool:false, headers:req.headers,encoding:null,followRedirect:false,body:dataStr,method:"POST"};
+    var options;
     if(loginUrl && reg.test(urlInfo.pathname)){
         if(req.method == "POST"){
             var data = req.body;
             var dataStr =   qs.stringify(data);
+            options =  {url:loginUrl,pool:false, headers:req.headers,encoding:null,followRedirect:false,body:dataStr,method:"POST"};
             request(options).pipe(res);
         }else{
             var toUrl = url.indexOf("?");
