@@ -1,7 +1,7 @@
 
 function setAction(form){
     var action = form.getAttribute("action");
-    var host = _agent_base_host;
+    var host = window._agent_base_host;
     if(!host){
         return;
     }
@@ -15,10 +15,7 @@ function setAction(form){
     if(path){
         action = path;
     }
-    alert(host);
-    alert(action);
     if(action.indexOf("/") == 0 && action.indexOf(host) == -1){
-        alert(8888);
         action = "/" + host  + action;
         form.setAttribute("action", action);
     }

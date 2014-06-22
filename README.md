@@ -16,3 +16,6 @@ agent any website you can access the site via you own server
      /css/1.css
 
   url :    /agent_static_file/css/1.css
+
+
+  ntstsg

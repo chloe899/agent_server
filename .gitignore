@@ -3,3 +3,4 @@ uploadfiles/
 .idea/
 *.iml
 node_modules/
+logs/
