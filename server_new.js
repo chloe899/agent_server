@@ -72,7 +72,7 @@ server.use(function(req, res, next){
     var reg = /^\/(agent_login|userLogin)(\.html|\.aspx)?/i;
     if(loginPageName){
        loginPageName  = loginPageName.replace(".", "\\.");
-        var pattern = "^/(agent_login(\\.html)?|" + loginPageName + ")?";
+        var pattern = "^/(agent_login(\\.html)?|" + loginPageName + ")";
         reg = new RegExp(pattern,"i");
     }
 
