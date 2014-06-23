@@ -6,6 +6,7 @@ var request = require("request");
 
 
 var proxyUtil = require("./lib/proxy");
+var commonUtil = require("./lib/common");
 
 
 var config = require("./config");
@@ -63,70 +64,10 @@ server.use(function(req, res, next){
 });
 
 
-var  userList = {};
 
 
-server.use(function(req, res, next){
-    var url = req.url;
-    var loginPageName = config.loginPageName;
-    var reg = /^\/(agent_login|userLogin)(\.html|\.aspx)?/i;
-    if(loginPageName){
-       loginPageName  = loginPageName.replace(".", "\\.");
-        var pattern = "^/(agent_login(\\.html)?|" + loginPageName + ")";
-        reg = new RegExp(pattern,"i");
-    }
 
-    var urlInfo = urlUtil.parse(url);
-    var loginUrl = config.loginUrl;
-    var verifyUrl = config.verifyUrl;
-    log.debug(urlInfo.pathname);
-    var options;
-    if(loginUrl && reg.test(urlInfo.pathname)){
-        if(req.method == "POST"){
-            var data = req.body;
-            var dataStr =   qs.stringify(data);
-            options =  {url:loginUrl,pool:false, headers:req.headers,encoding:null,followRedirect:false,body:dataStr,method:"POST"};
-            request(options).pipe(res);
-        }else{
-            var toUrl = url.indexOf("?");
-            toUrl = url.substr(toUrl+1);
-            request(loginUrl + "?" + toUrl).pipe(res);
-        }
-
-    } else{
-        var shouldVerify = true;
-        var userName = req.cookies["sykj_user"];
-        if(userName){
-            var time = userList[userName];
-            time = time || 0;
-            var now = Date.now();
-           var diff =  ((now - time ) /  1000);
-            if(diff  < 600){
-                shouldVerify = false;
-            }
-        }
-        if(verifyUrl && shouldVerify){
-
-            var  form = {};
-            form.url = req.url;
-            options = {url:verifyUrl,pool:false,headers:req.headers,encoding:null,followRedirect:false,form:form,method:"POST"};
-            request(options, function(err, vRes, body){
-                if(body == "true"){
-                    if(userName){
-                      userList[userName] = Date.now();
-                    }
-                    next();
-                }else{
-                    res.redirect("/agent_login?" + url);
-                }
-            });
-        }else{
-            next();
-        }
-
-    }
-
-});
+server.use(commonUtil.auth);
 
 server.use(function(req, res ,next){
     var url = req.url;
