@@ -25,12 +25,46 @@ function setAction(form){
 }
 
 (function(){
-    if($ && $.post){
-      var originPost = $.post;
-      var args = arguments;
+    function getProxyHost(path){
+        var pathname = path ||  location.pathname;
+        var reg = /\/[^\/]+/;
+        var host = reg.exec(pathname);
+        host  = host && host[0];
+        if(host && /\./.test(host)){
+            host = host.replace(/^\//,"");
+        }
+        return host;
+
+
+    }
+
+    if($ && $.ajax){
+        var o = $.ajax;
+        if(o){
+            function fun(){
+                var args = Array.prototype.slice.call(arguments);
+                var options = args[0];
+                var fun;
+                if(options.url){
+                    var urlHost = getProxyHost(options.url);
+                    if(!urlHost && options.url.indexOf("/") == 0){
+                        var pathHost =getProxyHost();
+                        if(pathHost){
+                            options.url = "/" + pathHost + urlHost;
+                        }
+                    }
+
+                }
+                o.apply($, args);
+
+            }
+            $.ajax = fun;
+
+        }
+
 
 
     }
 
 
-});
+})();
