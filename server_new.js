@@ -14,6 +14,14 @@ var config = require("./config");
 var log = require('./lib/logHelper').getLogger();
 
 
+process.on("uncaughtException", function(err){
+    if(err){
+        log.error(err.stack || err);
+    }
+
+});
+
+
 var server = express();
 
 server.use(express.bodyParser());
