@@ -37,6 +37,7 @@ function setAction(form){
 
 
     }
+    var $ = window.$;
 
     if($ && $.ajax){
         var o = $.ajax;
