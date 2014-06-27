@@ -1,6 +1,6 @@
 module.exports = {
     accessPort:8929,
-    accessHost:"localhost",
+    accessHost:"proxy.local",
     proxyHost:"cnki.net",
     model:"single",
     savePath:"tmp/duxiu",

@@ -4,3 +4,4 @@ uploadfiles/
 *.iml
 node_modules/
 logs/
+config.js

@@ -25,6 +25,7 @@ process.on("uncaughtException", function(err){
 var server = express();
 
 server.use(express.bodyParser());
+server.use(commonUtil.bodyParser());
 server.use(express.cookieParser());
 server.use(express.logger("dev"));
 server.use("/agent_static_file/", express.static(__dirname + '/static'));
@@ -85,7 +86,7 @@ server.use(function(req, res ,next){
         if(!host){
             var urlInfo = urlUtil.parse(url);
             log.debug(urlInfo);
-            var host = getHostFromReferer(req) || config.proxyHost;
+             host = getHostFromReferer(req) || config.proxyHost;
             var newUrl = "/" + host + urlInfo.href;
             if(req.method == "POST"){
                 req.url = newUrl;
