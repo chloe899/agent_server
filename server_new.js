@@ -81,7 +81,7 @@ server.use(commonUtil.auth);
 server.use(function(req, res ,next){
     var url = req.url;
     if(config.model == "single"){
-        var host = proxyUtil.getTargetHost(req);
+        var host = commonUtil.getTargetHost(req);
 
         if(!host){
             var urlInfo = urlUtil.parse(url);
