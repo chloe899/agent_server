@@ -31,6 +31,17 @@ server.use(express.logger("dev"));
 server.use("/agent_static_file/", express.static(__dirname + '/static'));
 server.disable("x-powered-by");
 
+/*
+server.use(function(req, res, next){
+    if(req.url.indexOf("aa.html") != -1){
+        res.send("123123");
+        return;
+    }
+    res.set({Location:"aa.html"});
+    res.send(302);
+});
+*/
+
 function getHostFromReferer(req){
     var referer = req.headers["referer"];
     var host = "";
@@ -86,7 +97,7 @@ server.use(function(req, res ,next){
         if(!host){
             var urlInfo = urlUtil.parse(url);
             log.debug(urlInfo);
-             host = getHostFromReferer(req) || config.proxyHost;
+            host = getHostFromReferer(req) || config.proxyHost;
             var newUrl = "/" + host + urlInfo.href;
             if(req.method == "POST"){
                 req.url = newUrl;
