@@ -1,6 +1,7 @@
 var express = require('express');
 var urlUtil = require('url');
 var qs = require("querystring");
+var net = require("net");
 
 var request = require("request");
 
@@ -20,9 +21,44 @@ process.on("uncaughtException", function(err){
     }
 
 });
+function test(req){
+    var options = {
+        allowHalfOpen: true,
+        readable: true,
+        writable: true
+    };
+    var socket = new net.Socket(options);
+    var port = 80;
+    var host = "www.baidu.com";
+    var data = "GET / HTTP/1.0\nAccept:text/*\n\n";
+
+    var client = net.connect({port: 80,host:host},
+        function() { //'connect' listener
+            console.log('client connected');
+            client.write(data);
+
+        });
+    var bufferArr = [];
+    var len = 0;
+    client.on('data', function(data) {
+        bufferArr.push(data);
+        len += data.length;
+    });
+    client.pipe(req.connection);
+    client.on('end', function() {
+        var buffer  = Buffer.concat(bufferArr,len);
+        //req.connection.write(buffer);
+       // req.connection.end();
+    });
+}
+
 
 
 var server = express();
+/*server.use(function(req, res,next){
+   test(req);
+
+});*/
 
 server.use(express.bodyParser());
 server.use(commonUtil.bodyParser());
