@@ -21,36 +21,7 @@ process.on("uncaughtException", function(err){
     }
 
 });
-function test(req){
-    var options = {
-        allowHalfOpen: true,
-        readable: true,
-        writable: true
-    };
-    var socket = new net.Socket(options);
-    var port = 80;
-    var host = "www.baidu.com";
-    var data = "GET / HTTP/1.0\nAccept:text/*\n\n";
 
-    var client = net.connect({port: 80,host:host},
-        function() { //'connect' listener
-            console.log('client connected');
-            client.write(data);
-
-        });
-    var bufferArr = [];
-    var len = 0;
-    client.on('data', function(data) {
-        bufferArr.push(data);
-        len += data.length;
-    });
-    client.pipe(req.connection);
-    client.on('end', function() {
-        var buffer  = Buffer.concat(bufferArr,len);
-        //req.connection.write(buffer);
-       // req.connection.end();
-    });
-}
 
 
 
@@ -60,7 +31,7 @@ var server = express();
 
 });*/
 
-server.use(express.bodyParser());
+
 server.use(commonUtil.bodyParser());
 server.use(express.cookieParser());
 server.use(express.logger("dev"));
@@ -79,7 +50,7 @@ server.use(function(req, res, next){
 */
 
 function getHostFromReferer(req){
-    var referer = req.headers["referer"];
+    var referer = req.headers["is_referer"] || req.headers["referer"];
     var host = "";
     if(referer){
         var urlInfo = urlUtil.parse(referer);
@@ -129,7 +100,7 @@ server.use(function(req, res ,next){
     var url = req.url;
     if(config.model == "single"){
         var host = commonUtil.getTargetHost(req);
-
+        log.debug(host);
         if(!host){
             var urlInfo = urlUtil.parse(url);
             log.debug(urlInfo);
